@@ -11,9 +11,10 @@ import { ServerResponse } from 'node:http';
 const app = express();
 
 
-const PORT = process.env.PORT || '3000';
-const HOST = "localhost";
 
+
+const PORT = process.env.PORT || 3000;
+const HOST = "localhost";
 
 
 // static files

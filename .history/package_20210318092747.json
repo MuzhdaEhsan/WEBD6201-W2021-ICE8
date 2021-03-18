@@ -8,13 +8,8 @@
   "license": "MIT",
 
   "engines": {
-    "node": "^15.5.1",
+    "node": "^14.0.0",
     "npm": "^6.1.0"
-  },
-
-
-  "scripts": {
-    "start": "node index.js"
   },
 
   "dependencies": {

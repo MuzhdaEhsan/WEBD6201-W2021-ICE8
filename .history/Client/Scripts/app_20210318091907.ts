@@ -346,7 +346,7 @@ namespace core
 
           if(contact.serialize())
           {
-            // add the contact info to localStorage
+              // add the contact info to localStorage
             localStorage.setItem(key, contact.serialize());
           }
 

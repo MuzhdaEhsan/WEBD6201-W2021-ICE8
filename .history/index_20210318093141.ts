@@ -7,13 +7,10 @@ import express = require('express');
 import { ServerResponse } from 'node:http';
 
 
-
 const app = express();
 
-
-const PORT = process.env.PORT || '3000';
+const PORT = process.env.PORT || 3000;
 const HOST = "localhost";
-
 
 
 // static files

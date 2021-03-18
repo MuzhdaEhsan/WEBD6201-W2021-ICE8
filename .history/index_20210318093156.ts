@@ -15,7 +15,6 @@ const PORT = process.env.PORT || '3000';
 const HOST = "localhost";
 
 
-
 // static files
 app.use(express.static(path.join(__dirname, "node_modules")));
 app.use(express.static(path.join(__dirname, "Client")));
